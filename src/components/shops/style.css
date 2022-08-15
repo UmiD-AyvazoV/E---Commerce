@@ -1,0 +1,34 @@
+.chead h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.chead h1:nth-child(2) {
+  opacity: 0.5;
+  border-left: 3px solid rgba(0, 0, 0, 0.5);
+  padding-left: 70px;
+}
+
+.shop .box2 {
+  margin-top: 100px !important;
+  text-align: center;
+}
+
+.shop .contentWidth {
+  margin-left: 30px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.shop .product img {
+  width: 100%;
+  height: 100%;
+}
+.shop .product {
+  transition: 0.5s;
+}
+.shop .product:hover {
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
